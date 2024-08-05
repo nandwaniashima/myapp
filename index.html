@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Web Design Mastery | SoulTravel</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Cash<span>Dash</span>.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#about-us-section">About Us</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <a href="index2.html" class="btn get_started">Get Started</a>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="ri-file-text-line"></i></span>
+          Invoice Generator
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="ri-database-line"></i></span>
+          Inventory
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="ri-user-line"></i></span>
+          Customer Data Store
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="ri-money-dollar-circle-line"></i></span>
+          Expense Tracker
+        </div>
+        <img src="assets/billing-management.png" alt="Billing Management System" />
+      </div>
+      <div class="header__content">
+        <h1>Streamline Your Finances<br />WITH <span>CASHDASH</span></h1>
+    <p>
+      Simplify your billing and financial management with our all-in-one system. 
+      Track expenses, manage invoices, and oversee your financial data effortlessly. 
+      Get started now and experience seamless financial control.
+    </p>
+        <div class="search__button__container">
+          <button class="btn search__button">Search</button>
+        </div>
+      </div>
+    </header>
+    <section id="about-contact-section" class="about-contact-section">
+      <div id="about-us-section" class="about-us-content">
+          <h2>About Us</h2>
+          <p>
+              At CashDash, we are dedicated to simplifying your financial management. Our platform offers an intuitive and efficient way to handle billing, track expenses, and manage invoices. With CashDash, businesses can streamline their financial operations and gain valuable insights into their financial health. Our mission is to provide you with the tools you need to succeed and make managing your finances as hassle-free as possible.
+          </p>
+          <p>
+              Whether you're a small business owner or part of a larger organization, CashDash is designed to adapt to your needs. Our user-friendly interface and robust features ensure that you can stay on top of your financial responsibilities with ease. Join us and experience a new level of financial control and efficiency.
+          </p>
+      </div>
+      <div id="contact-section" class="contact-content">
+          <h2>Contact Us</h2>
+          <p>If you have any questions or need support, feel free to reach out to us.</p>
+          <form id="contact-form" action="/send-message" method="post">
+              <div class="input-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+              </div>
+              <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+              </div>
+              <div class="input-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+          </form>
+          <div id="response-message" class="response-message" style="display: none;">
+            Your message has been sent!
+      </div>
+  </section>
+    
+    
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
